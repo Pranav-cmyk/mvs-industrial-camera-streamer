@@ -1,0 +1,12 @@
+[project]
+name = "mvs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.136.0",
+    "numpy>=2.4.4",
+    "opencv-python>=4.13.0.92",
+    "uvicorn>=0.45.0",
+]

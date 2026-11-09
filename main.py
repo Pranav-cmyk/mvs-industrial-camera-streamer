@@ -1,4 +1,3 @@
-# -- coding: utf-8 --
 
 import base64
 import os
@@ -41,7 +40,6 @@ class CameraManager:
         self.dst_buf_size = 0
 
     def initialize(self):
-        # ch:初始化SDK | en: initialize SDK
         MvCamera.MV_CC_Initialize()
 
         deviceList = MV_CC_DEVICE_INFO_LIST()

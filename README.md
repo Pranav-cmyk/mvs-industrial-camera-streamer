@@ -20,3 +20,7 @@ A thread-safe **FastAPI** streaming microservice that bridges industrial **Hikro
 2. Start the FastAPI server:
    ```bash
    python main.py
+   ```
+
+
+3. View the live stream at http://localhost:8000 or poll raw Base64 frames at GET http://localhost:8000/frame.
